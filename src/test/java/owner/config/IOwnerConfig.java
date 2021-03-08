@@ -5,19 +5,16 @@ import org.aeonbits.owner.Config;
 @Config.Sources("classpath:${env}.properties")
 public interface IOwnerConfig extends Config {
 
-    @Key("env")
-    String env();
-
     @Key("browser")
     String browser();
 
-    @Key("browserVersion")
+    @Key("browser_version")
     String browserVersion();
 
-    @Key("remoteUrl")
+    @Key("remote_url")
     String remoteUrl();
 
-    @Key("videoStorage")
+    @Key("video_storage")
     String videoStorage();
 
 }
