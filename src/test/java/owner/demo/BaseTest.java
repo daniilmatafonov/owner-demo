@@ -24,7 +24,7 @@ public class BaseTest {
         Configuration.browser = config.browser();
         Configuration.browserVersion = config.browserVersion();
 
-        if (config.remoteUrl() != null) {
+        if (config.env() != null && config.env().equals("remote")) {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
