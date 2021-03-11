@@ -1,9 +1,9 @@
-package owner.demo;
+package tests;
 
 import com.github.javafaker.Faker;
+import model.Student;
 import org.junit.jupiter.api.Test;
-import owner.model.Student;
-import owner.pages.StudentPage;
+import pages.StudentPage;
 
 import static com.codeborne.selenide.Selenide.open;
 

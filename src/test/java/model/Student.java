@@ -1,4 +1,4 @@
-package owner.model;
+package model;
 
 public class Student {
 

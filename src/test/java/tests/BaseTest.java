@@ -1,4 +1,4 @@
-package owner.demo;
+package tests;
 
 import com.codeborne.selenide.Configuration;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -6,7 +6,7 @@ import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import owner.config.IOwnerConfig;
+import config.IOwnerConfig;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.logevents.SelenideLogger.addListener;
